@@ -1,0 +1,589 @@
+@font-face {
+    font-family: 'shabnam';
+    src: url('./font/Shabnam.woff2') format('woff2'), /* Modern Browsers */
+    url('./font/Shabnam.woff') format('woff'), /* Modern Browsers */
+    url('./font/Shabnam.ttf') format('truetype'); /* Safari, Android, iOS */
+    
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'shabnambold';
+    src: url('./font/Shabnam-Bold.woff') format('woff2'), /* Modern Browsers */
+    url('./font/Shabnam-Bold.woff') format('woff'), /* Modern Browsers */
+    url('./font/Shabnam-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+    
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+    font-family: 'shabnambold';
+    width: 100%;
+}
+body{
+    font-family: 'shabnambold';
+    width: 100%;
+}
+
+.nav{
+  /* background-color: #353dc9; */
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  background: linear-gradient(-45deg, #4178ee, #52109e, #04139b, #343975);
+      background-size: 400% 400%;
+      -webkit-animation: gradient 15s ease infinite;
+              animation: gradient 15s ease infinite;
+}
+
+
+.nav .logo{
+  
+    background: url("./Components/2fad07bd-3c44-4fec-8373-fe1a8114d413_200x200.png");
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: -53px;
+    right: 3%;
+  
+  
+  
+}
+
+.nav-items{
+  display: flex;
+  list-style: none;
+  margin-top: 36px;
+  margin-right: 26%;
+  width: 40%;
+  height: 30px;
+  padding: 0;
+}
+.nav-item{
+  margin-left: 5%;
+  color: #d5d3d4;
+  transition:all 0.2s linear;
+
+}
+.nav-content{
+  display: flex;
+  z-index: 100;
+}
+.nav-item:hover{
+  transform: scale(1.05);
+  color: rgb(248, 113, 160);
+
+}
+.active{
+  color: rgb(255, 0, 89);
+}
+
+
+
+
+
+/* ---------------------------------------------------- */
+                      /* section0 */
+/* ----------------------------------------------------- */
+.section0{
+     width: 100%;
+      height:623px ;
+      z-index: 0;
+      border-radius: 13%;
+      background: linear-gradient(-45deg, #1a4092, #4f0d9b, #09136d, #4e1385);
+           
+}
+
+
+.section0 .right{
+  width: 50%;
+  height: 100%;
+}
+
+.section0 .right h1{
+color: rgb(253 250 255);
+font-size: 3rem;
+position: absolute;
+z-index: 0;
+top: 17%;
+right: 15%;
+}
+
+.image1{
+  display: inline-block;
+  width: 700px;
+  height: 772px;
+  background:url(./Components/iminer.png) no-repeat ;
+  position: absolute;
+  left:10%;
+  top: 25%;
+
+}
+.p1{
+  color: white;
+  position: absolute;
+  right: 10%;
+  top: 35%;
+  width: 35rem;
+  text-align: center;
+
+}
+.p2{
+  color: white;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  width: 35rem;
+  text-align: center;
+
+}
+
+.input{
+  width: 40%;
+  height: 10%;
+  position: absolute;
+  top: 63%;
+  right: 10%;
+  font-family: "shabnambold";
+  /* font-size: 4rem; */
+  direction: rtl;
+  border-radius: 5px;
+  border: none;
+}
+.input::placeholder{
+  font-family: "shabnambold";
+  text-align: center;
+  font-size: 1.2rem;
+
+}
+.btn{
+  position: absolute;
+  top: 79%;
+  right: 20%;
+  background-color: transparent;
+  font-size:'1.5rem'
+}
+
+
+
+/* ---------------------------------------------------- */
+                      /* section1 */
+/* ----------------------------------------------------- */
+
+.section1{
+  width: 100%;
+  height:570px ;
+  background:linear-gradient(45deg,#4568dc , #b06ab3
+  );
+  position: relative;
+  z-index: -1;
+  top: -10%;
+}
+.section1 .p3{
+  position: absolute;
+  right: 10%;
+  top: 26%;
+  color: rgb(253, 61, 2);
+
+}
+.section1 .p4{
+  width: 40%;
+  position: absolute;
+  right: 10%;
+  top: 30%;
+  font-size: 2rem;
+  text-align: right;
+  color: white;
+
+}
+.section1 .p5{
+  width: 30%;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  color: #c5bebe;
+
+}
+.aboutus{
+  position: relative;
+}
+.circle{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  position: relative;
+  right: 55px;
+
+}
+.top{
+  display: flex;
+}
+.tl{
+  position: absolute;
+  top: 13%;
+  right: 80%;
+}
+.bl{
+  position: absolute;
+  top: 55%;
+  right: 80%; 
+}
+.tr{
+  position: absolute;
+  top: 13%;
+  right: 56%; 
+}
+.br{
+  position: absolute;
+  top: 55%;
+  right: 56%; 
+}
+
+.circletr{
+  background: linear-gradient(135deg, #ed6ea0 0%, #ec8c69 100%);
+}
+.circletl{
+  background: linear-gradient(-45deg, #c471f5 0%, #fa71cd 100%);
+}
+.circlebr{
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+.circlebl{
+  background: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+.title{
+  font-family: 'shabnambold';
+  color: white;
+  font-size: 1.3rem;
+}
+.p{
+  width: 250px;
+  color: #c5bebe;
+  font-size: 0.9rem;
+}
+
+/* ---------------------------------------------------- */
+                      /* section2 */
+/* ----------------------------------------------------- */
+.section2{
+  background-color: rgb(234 233 233);
+    height: 620px;
+    overflow: hidden;
+}
+
+.section2 .content{
+  width: 30%;
+  position: relative;
+right: 60%;
+padding-top: 40px;
+
+}
+
+.content .title-2{
+  font-size: 2rem;
+  color: #f50057;
+}
+.paboutus{
+  font-size: 1.2rem;
+}
+.contentus{
+  font-size: 0.9rem;
+  color: rgb(104, 104, 104);
+}
+.triangle{
+  width: 136%;
+  height: 2000px;
+  background: linear-gradient(120deg, #11388a, #320c9c, #4706be, #2c3380);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+  position: absolute;
+  right: -452px;
+  top: -358px;
+  z-index: 0;
+  transform: rotate(70deg);
+}
+.section2 .image2{
+  background-image: url("./Components/macbook-dashboard.png");
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  right: 100px;
+  top: 1300px;
+  z-index: 1;
+}
+
+/* ---------------------------------------------------- */
+                      /* section3 */
+/* ----------------------------------------------------- */
+
+.section3{
+  height: 620px;
+  z-index:5;
+  overflow: hidden;
+  background-color:#e9e8e8 ;
+}
+.section3 .content4{
+position: relative;
+right: 10%;
+top: 30%;
+width:912px;
+
+}
+.section3 .image4{
+  width:400px;
+  height: 330px;
+  position: absolute;
+  right: 60%;
+  top: 1800px;
+  background: url("./Components/21.png") no-repeat;
+}
+.content4 .p{
+  width:50%;
+
+}
+.content4 .p6{
+  color:#f50057 ;
+
+}
+.content4 .p7{
+  font-size: 2rem;
+  text-shadow:1px 0px 2px #4752d1;
+
+}
+.content4 .p8{
+  color: rgb(107, 107, 107);
+  line-height: 30px;
+  width: 98%;
+
+}
+
+
+/* ---------------------------------------------------- */
+                      /* section4 */
+/* ----------------------------------------------------- */
+
+.section4{
+  height: 620px;
+  position: relative;
+}
+.content5{
+  position: relative;
+  top: 10%;
+}
+.p9{
+  position: absolute;
+  right: 49%;
+  color: #f50057;
+  font-weight: bolder;
+}
+.p10{
+  position: absolute;
+  right: 34%;
+  top:40px;
+  font-size: 2rem;
+  text-shadow: 2px 1px 2px #473ba2e8;
+
+}
+.p11{
+  position: absolute;
+  right: 19%;
+  top:380px;
+  font-size: 1.5rem;
+
+}
+.p12{
+  position: absolute;
+  right: 15%;
+  top:425px;
+  width: 180px;
+  text-align: center;
+  line-height: 40px;
+  color: rgb(107, 107, 107);
+
+}
+.p13{
+  position: absolute;
+  right: 49%;
+  top:380px;
+  font-size: 1.5rem;
+
+}
+.p14{
+  position: absolute;
+  right: 45.5%;
+  top:425px;
+  width: 190px;
+  text-align: center;
+  line-height: 40px;
+  color: rgb(107, 107, 107);
+
+
+}
+.p15{
+  position: absolute;
+  right: 74%;
+  top:380px;
+  font-size: 1.5rem;
+
+}
+.p16{
+  position: absolute;
+  right: 71%;
+  top:425px;
+  width: 190px;
+  text-align: center;
+  line-height: 40px;
+  color: rgb(107, 107, 107);
+
+
+}
+.circle6,.circle7,.circle8{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background:radial-gradient(#667eea, #764ba2);
+  position: absolute;
+  right: 75%;
+  top:280px;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 80px;
+  font-family: "shabnambold";
+}
+.circle7{
+  position: absolute;
+  right: 49.6%;
+  top:280px;
+
+}
+.circle8{
+  position: absolute;
+  right: 19%;
+  top:280px;
+
+}
+
+/* ---------------------------------------------------- */
+                      /* section5 */
+/* ----------------------------------------------------- */
+
+.section5{
+  position: relative;
+  width: 100%;
+  height: 620px;
+  background: linear-gradient(45deg,#eaafc8 10%,#654ea3 40%,#52109e, #04139b);
+}
+  .section5 .content6{
+  position: relative;
+  top: 130px;
+  height: 300px;
+  
+}
+.header6{
+  position: relative;
+  right: 170px;
+  top: -30px;
+  margin-bottom: 2rem;
+  color: rgb(248, 3, 3);
+
+}
+.title6{
+  position: relative;
+  right: 170px;
+  top: -30px;
+  color: white;
+  font-size: 2rem;
+}
+.content6 .p17{
+  width: 330px;
+  position: relative;
+  right: 170px;
+  top: -30px;
+  font-size: 1.3rem;
+  color: rgb(208 205 218);
+
+}
+.input2{
+  width: 30%;
+  height: 15%;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  right: 12%;
+  top:-2.2rem;
+
+}
+.input2::placeholder{
+  font-family: "shabnambold";
+  text-align: center;
+  font-size: 1.2rem;
+}
+.image5{
+  background: url("./Components/45.png");
+  width: 300px;
+  height: 327px;
+  position: absolute;
+  right: 60%;
+  top: 20%;
+}
+.footer{
+  width: 60%;
+  height: 390px;
+  background: linear-gradient(-45deg, #3a119d, #52109e, #631cc7, #4658d5);  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;  position: absolute;
+  bottom: -270px;
+  border-radius: 20px;
+}
+
+.content7{
+  width: 700px;
+  position: relative;
+  right: 4%;
+  top :25px;
+  color: #b8b9bd;
+  line-height: 40px;
+  font-size: 0.8rem;
+}
+
+.footer .image6{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 140%;
+  top: -60px;
+  background: url("./Components/namad.png") no-repeat;
+}
+
+
+
+
+
+
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
